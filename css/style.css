@@ -1,6 +1,6 @@
 :root {
-  --accent: #e72496;
-  --accent-light: #86385f;
+  --accent: #e6b820;
+  --accent-light: #f0c36f;
   --pure-white: #fff;
 }
 html {
@@ -191,7 +191,7 @@ body {
   border-radius: 4px;
 }
 .view:hover {
-  background-color: #47032b;
+  background-color: #ec7d14;
 }
 
 .language li {
