@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-  width: 1140px;
+  width: 1080px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -33,6 +33,7 @@ body {
 .header {
   background-color: var(--accent);
 }
+
 .header a {
   color: var(--pure-white);
   text-decoration: none;
@@ -103,8 +104,9 @@ body {
 }
 
 .section {
-  padding: 60px 0;
+  padding: 60px 15px;
 }
+
 .contacts ul {
   display: flex;
   justify-content: center;
@@ -208,5 +210,22 @@ body {
 
 .footer {
   text-align: center;
-  padding: 15px;
+  padding: 20px;
+}
+
+@media (max-width: 1080px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+  }
 }
